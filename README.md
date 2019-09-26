@@ -1,16 +1,16 @@
 ## implementation procedure
 Visit https://dialogflow.com/
 Login with any gmail account
-create 'weatherbot' named agent and train intents,
-install ngrok , flask , mysql and  mysqldb on your terminal(ubuntu),(or)we can install all set in windows also
-In new terminal type command  "ngrok http 80" to get the link 
-"80" this is prot address in your local host it can be any integer value
-ngrok proved a url,take that url and paste that url in the fullfillment section in dailogflow for establishing webhook connection
-Example of url to be paste in fullfillment is : https://ea49fba8.ngrok.io
-add "/webhook" to the url in fullfillment its looks like this : https://ea49fba8.ngrok.io/webhook
-we can run this files in virtuval enviroment 
-In new terminal type command "FLASK_APP=filename.py flask run"
-In mysql create database ,needed tables for the resume_chatbot
+Create 'weatherbot' named agent and train intents,
+Install ngrok , flask , mysql and  mysqldb on your terminal(ubuntu),(or)we can install all set in windows also,
+In new terminal type command  "ngrok http 80" to get the link, 
+"80" This is prot address in your local host it can be any integer value,
+Ngrok proved a url,take that url and paste that url in the fullfillment section in dailogflow for establishing webhook connection,
+Example of url to be paste in fullfillment is : https://ea49fba8.ngrok.io,
+Add "/webhook" to the url in fullfillment its looks like this : https://ea49fba8.ngrok.io/webhook,
+We can run this files in virtuval enviroment,
+In new terminal type command "FLASK_APP=filename.py flask run",
+In mysql create database ,needed tables for the resume_chatbot...
 ## attributes define
 # Dialogflow
 1.Dialogflow is a Google proveding AI based chatbot platform
